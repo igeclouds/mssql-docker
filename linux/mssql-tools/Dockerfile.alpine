@@ -1,5 +1,5 @@
 # SQL Server Command Line Tools
-FROM alpine
+FROM alpine:3.18.3
 
 LABEL maintainer="SQL Server Engineering Team"
 
