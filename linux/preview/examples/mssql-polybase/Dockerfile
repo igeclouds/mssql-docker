@@ -3,7 +3,7 @@
 # GitRepo: https://github.com/Microsoft/mssql-docker
 
 # Base OS layer: Latest Ubuntu LTS
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 
 # Install prerequistes including repo config for SQL server and PolyBase.
 RUN export DEBIAN_FRONTEND=noninteractive && \
